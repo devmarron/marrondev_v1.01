@@ -1,0 +1,29 @@
+/* src/styles/responsive.css */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .social-links {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        padding: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .social-links {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-container {
+        padding: 0 1rem;
+    }
+}
